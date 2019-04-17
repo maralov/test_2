@@ -1,0 +1,22 @@
+$font-main: 'Open Sans', sans-serif;
+$font-sec: 'Oswald', sans-serif;
+//colors
+$red: #d44969;
+$blue: #2c87ce;
+$green: #8ae6d0;
+$main-color: #000000;
+
+
+body {
+    background-color: #f6f6f6;
+    font-family: $font-main;
+    color: $main-color;
+}
+
+.container {
+    max-width: 835px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
