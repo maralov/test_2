@@ -1,0 +1,32 @@
+
+.catalog {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    &__title {
+        text-transform: uppercase;
+        flex: 1 100%;
+        margin: 65px 0 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
+.product-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.product__img {
+    max-width: 100%;
+}
+.product-price {
+    position: absolute;
+    right: 0;
+    bottom: 24px;
+    background-color: $green;
+    color: $main-color;
+    padding: 5px;
+    font-weight: bold;
+   
+}

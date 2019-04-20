@@ -1,0 +1,37 @@
+@media screen and (max-width: 765px) {
+    .product-card {
+        flex-wrap: wrap;
+    }
+    .product-card__title {
+        display: flex;
+        flex: 1 100%;
+    }
+    .info__title,
+    .rating__share,
+    .popup-share,
+    .size .title_xl {
+        display: none;
+    }
+    .price {
+        font-size: 2em;
+    }
+    .size,
+    .add-to-card {
+        width: 70%;
+        .btn {
+            padding: 15px;
+        }
+    }
+
+    .title {
+        flex: 1 100%;
+    }
+    .details__title,
+    .size .title_l {
+        display: block;
+
+    }
+   .product-item {
+       
+   }
+}
