@@ -17,7 +17,7 @@
 
 .product-picture {
     flex: 0 47.666%;
-    
+    position: relative;
 
     &__img {
         width: 100%;
@@ -87,7 +87,7 @@
 
 .price_old {
     text-decoration: line-through;
-    padding-right: 3%;
+    padding-right: 1%;
 }
 
 .price_new {

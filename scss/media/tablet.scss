@@ -1,4 +1,7 @@
 @media screen and (max-width: 765px) {
+    .container {
+        max-width: 717px;
+    }
     .product-card {
         flex-wrap: wrap;
     }
@@ -11,6 +14,9 @@
     .popup-share,
     .size .title_xl {
         display: none;
+    }
+    .picture-share {
+        display: flex;
     }
     .price {
         font-size: 2em;
@@ -32,6 +38,6 @@
 
     }
    .product-item {
-       
+       margin: 0 auto 20px;
    }
 }
