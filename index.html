@@ -15,70 +15,78 @@
 <body>
     <main class="container">
         <div class="product-card">
-            <h1 class="product-card__title">For gamers by gamers TEE</h1> <!--visible for tablet -->
-            <div class="product-picture">
+            <h1 class="product-title product-card__title product-title_hide">For gamers by gamers TEE</h1>
+            <!--visible for tablet -->
+            <div class="product-picture ">
                 <img class="product-picture__img" src="img/product-img.jpg" alt="jacket">
-                <div class="picture-share">
+                <div class="product-picture__share">
                     <!-- спрятано для десктопа и мобайл -->
-                    <a href="#" class="picture-share__item">
-                        <i class="fa fa-facebook" aria-hidden="true"></i> <!-- font awesom social network -->
-                    </a>
-                    <a href="#" class="picture-share__item">
-                        <i class="fa fa-twitter" aria-hidden="true"></i><!-- font awesom social network -->
-                    </a>
-                    <a href="#" class="picture-share__item">
-                        <i class="fa fa-pinterest-p" aria-hidden="true"></i><!-- font awesom social network -->
-                    </a>
-                    <a href="#" class="picture-share__item">
-                        <i class="fa fa-youtube" aria-hidden="true"></i><!-- font awesom social network -->
-                    </a>
-                    <a href="#" class="picture-share__item">
-                        <i class="fa fa-instagram" aria-hidden="true"></i><!-- font awesom social network -->
+                    <div class="social-share social-share_tablet">
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-facebook" aria-hidden="true"></i> <!-- font awesom social network -->
+                            </a>
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </a>
                 </div>
             </div>
             <div class="info">
-                <h1 class="info__title">For gamers by gamers TEE</h1>
-                <p class="info__id">Item #: 701642853695</p>
-                <div class="price">
+                <h1 class="product-title info__product-title ">For gamers by gamers TEE</h1>
+                <p class="product-id info__product-id">Item #: 701642853695</p>
+                <div class="price-primary info__price-primary">
                     <span class="price_old">$29.50</span>
                     <span class="price_new">$19.99</span>
                 </div>
-                <div class="rating">
+                <div class="rating info__rating">
                     <!-- font awesome stars -->
-                    <i class="rating__item rating__item_voted fa fa-star" aria-hidden="true"></i>
-                    <i class="rating__item rating__item_voted fa fa-star" aria-hidden="true"></i>
-                    <i class="rating__item rating__item_voted fa fa-star" aria-hidden="true"></i>
-                    <i class="rating__item rating__item_voted fa fa-star" aria-hidden="true"></i>
-                    <i class="rating__item rating__item fa fa-star" aria-hidden="true"></i>
+                    <div class="stars rating__stars">
+                        <i class="rating__item rating__item_voted fa fa-star" aria-hidden="true"></i>
+                        <i class="rating__item rating__item_voted fa fa-star" aria-hidden="true"></i>
+                        <i class="rating__item rating__item_voted fa fa-star" aria-hidden="true"></i>
+                        <i class="rating__item rating__item_voted fa fa-star" aria-hidden="true"></i>
+                        <i class="rating__item rating__item fa fa-star" aria-hidden="true"></i>
+                    </div>
                     <a href="#" class="rating__share"> Share it!</a>
                     <div class="popup-share">
                         <h3 class="popup-share__title">Share with</h3>
-                        <a href="#" class="popup-share__item">
-                            <i class="fa fa-facebook" aria-hidden="true"></i> <!-- font awesom social network -->
-                        </a>
-                        <a href="#" class="popup-share__item">
-                            <i class="fa fa-twitter" aria-hidden="true"></i><!-- font awesom social network -->
-                        </a>
-                        <a href="#" class="popup-share__item">
-                            <i class="fa fa-pinterest-p" aria-hidden="true"></i><!-- font awesom social network -->
-                        </a>
-                        <a href="#" class="popup-share__item">
-                            <i class="fa fa-youtube" aria-hidden="true"></i><!-- font awesom social network -->
-                        </a>
-                        <a href="#" class="popup-share__item">
-                            <i class="fa fa-instagram" aria-hidden="true"></i><!-- font awesom social network -->
-                        </a>
+                        <div class="social-share">
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-facebook" aria-hidden="true"></i> <!-- font awesom social network -->
+                            </a>
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-twitter" aria-hidden="true"></i><!-- font awesom social network -->
+                            </a>
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-pinterest-p" aria-hidden="true"></i><!-- font awesom social network -->
+                            </a>
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-youtube" aria-hidden="true"></i><!-- font awesom social network -->
+                            </a>
+                            <a href="#" class="social-share__item">
+                                <i class="fa fa-instagram" aria-hidden="true"></i><!-- font awesom social network -->
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="details">
+                <div class="details info__details">
                     <h2 class="details__title">DETAILS:</h2>
                     <p class="details__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                 </div>
-                <div class="size">
+                <div class="size info__size">
                     <div class="title">
                         <span class="title_l">select a size:</span>
                         <span class="title_xl">size:</span>
@@ -89,8 +97,8 @@
                     <div class="size__item size__item_active"><span>L</span></div>
                 </div>
                 <div class="add-to-card">
-                    <button class="btn">
-                        <span class="btn__text">add to card</span>
+                    <button type="submit" class="btn">
+                        <span>add to cart</span>
                     </button>
                 </div>
             </div>

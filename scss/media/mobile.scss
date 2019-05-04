@@ -1,0 +1,44 @@
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 404px;
+    }
+    .product-card {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .product-picture__share {
+        display: none;
+    }
+    .info {
+        padding: 20px 30px;
+        &__price-primary {
+            font-size: 36px;
+        }
+    }
+    .rating {
+        flex-direction: column;
+        &__stars {
+            margin-bottom: 21px;
+        }
+    }
+    
+    .popup-share {
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        box-shadow: none;
+        background-color: transparent;
+        padding: 0;
+        &__title {
+            display: none;
+        }
+    
+        &:before {
+            display: none;
+        }
+    }
+    .details__title {
+        display: none;
+    }
+}

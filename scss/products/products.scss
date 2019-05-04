@@ -1,11 +1,11 @@
 
 .catalog {
     display: flex;
-    flex-flow: wrap row;
+    flex-flow: row wrap;
     justify-content: space-between;
     &__title {
         text-transform: uppercase;
-        text-align: center;
+        text-align: left;
         flex: 1 100%;
         margin: 65px 0 20px;
         font-size: 22px;
@@ -14,12 +14,13 @@
 }
 
 .product-item {
+    flex: 0 0 32%;
     position: relative;
     margin-bottom: 20px;
 }
 
 .product__img {
-    max-width: 100%;
+    width: 100%;
 }
 .product-price {
     position: absolute;
