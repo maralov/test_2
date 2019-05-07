@@ -493,4 +493,25 @@ body {
     .popup-share:before {
       display: none; }
   .details__title {
-    display: none; } }
+    display: none; }
+  .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .size {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .add-to-card {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .catalog {
+    display: none; }
+  .slider-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }

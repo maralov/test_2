@@ -41,4 +41,24 @@
     .details__title {
         display: none;
     }
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .size {
+        justify-content: center;
+    }
+    
+    .add-to-card {
+        justify-content: center;
+    }
+
+    .catalog {
+        display: none;
+    }
+
+    .slider-container {
+        display: flex;
+    }
 }
